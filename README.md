@@ -4,6 +4,7 @@
 > * 简述：
 
 修改Android Studio2.3的Documentation提示方式，使之关联源码，防止无休止地Fetching Documentation。
+相关博文：http://blog.csdn.net/mingyueyixi/article/details/70057905
 
  - 语言：C#
  - 类型：winfrom程序
