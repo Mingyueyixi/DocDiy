@@ -6,9 +6,11 @@
 修改Android Studio2.3的Documentation提示方式，使之关联源码，防止无休止地Fetching Documentation。
 相关博文：http://blog.csdn.net/mingyueyixi/article/details/70057905
 
+
  - 语言：C#
  - 类型：winfrom程序
  - 平台：windows
+ - 开发工具：SharpDevelop5
 
 
 Android Studio2.3版本更新以后会自动根据用户设置的sdk路径，在配置文件jdktable.xml中为每个下载的api版本生成javadoc（文档）和javasource（源码）的配置，并且当用户没有下载到doc时，默认设为网址链接：http://developer.android.com/reference/"。配置文件形如：
