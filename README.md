@@ -1,7 +1,7 @@
 # Android Studio2.3 源码提示修正
 
 
-> * 简述：
+> 简述：
 
 修改Android Studio2.3的Documentation提示方式，使之关联源码，防止无休止地Fetching Documentation。
 相关博文：http://blog.csdn.net/mingyueyixi/article/details/70057905
@@ -34,11 +34,11 @@ fetching图：
 
 ![0](https://raw.githubusercontent.com/Mingyueyixi/DocDiy/master/preview/AndroidStudioFetching%20.png)
 
-[注] Android Studio和eclipse不同，没有像eclipse那样，既可以显示doc的提示，显示源代码的注释，Android Studio目前默认就只有Doc这种提示方式。
+[注] Android Studio和eclipse不同，没有像eclipse那样，既可以显示doc的提示，又可以显示源代码的注释，Android Studio目前默认就只有Doc这种提示方式。
 
 ------
 
-> * 预览：
+> 预览：
 
 
 
@@ -55,3 +55,4 @@ fetching图：
 ![3](https://github.com/Mingyueyixi/DocDiy/blob/master/preview/2.jpg)
 
 
+[注] 这个工具只修改存在的路径标签，也就是说，如果Android Studio没有配置标签进来，不会进行修改，这意味着或许某一天，你需要再次使用这个工具。
