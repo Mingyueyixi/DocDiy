@@ -26,7 +26,9 @@ Android Studio2.3版本更新以后会自动根据用户设置的sdk路径，在
           <root type="composite" url="file://D:/Android/android-sdk/sources/android-25"/>
         </sourcePath>
 
-当使用用户Android Studio2.3写代码时，代码的文档提示会从此网址上查找，网络不好的情况下就会一直fetching Documentation。这个问题的解决方法就是将javadoc的路径重定向为源码的路径，只是Android的API版本众多，配置有些麻烦。当然，嫌麻烦可以只配置下载的最后一个版本。
+当使用用户Android Studio2.3写代码时，代码的文档提示会从此网址上查找，网络不好的情况下就会一直fetching Documentation。这个问题的解决方法就是将javadoc的路径重定向为源码的路径或本地文档路径。当本地文档不存在时，可以配置为源码路径，因为文档是由源码生成的，不过配置为源码之后，就不能浏览器去链接查阅，很正常，不是么？参考https://github.com/Mingyueyixi/DocDiy/issues/1。
+
+Android的API版本众多，配置有些麻烦。当然，嫌麻烦可以只配置下载的最后一个版本。
 
 这亦是开发这个小工具的因缘。
 
