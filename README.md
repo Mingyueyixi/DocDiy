@@ -1,6 +1,6 @@
 # Android Studio2.3 源码提示修正
 
-## 注：该工具已基本过时。Android Studio3.0已经修复文档关联的问题 ##
+## 注：该工具已过时。Android Studio3.0已经修复文档关联的问题 ##
 
 > 简述：
 
